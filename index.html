@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐾 Patitas Felices - Tu Tienda de Mascotas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f8fb;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #8c7ae6;
+            color: white;
+            padding: 2em 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2em auto;
+            padding: 0 20px;
+        }
+        .section {
+            background-color: white;
+            padding: 2em;
+            margin-bottom: 2em;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            text-align: left;
+        }
+        .section h2 {
+            color: #8c7ae6;
+            text-align: center;
+            margin-bottom: 1em;
+            font-size: 2.2em;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 2em;
+        }
+        .grid-item {
+            text-align: center;
+        }
+        .grid-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .grid-item img:hover {
+            transform: scale(1.03);
+        }
+        .grid-item h3 {
+            color: #555;
+            margin-top: 1em;
+            font-size: 1.5em;
+        }
+        footer {
+            background-color: #555;
+            color: white;
+            padding: 1.5em 0;
+            margin-top: 3em;
+            font-size: 0.9em;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🐾 Patitas Felices</h1>
+        <p>¡El hogar perfecto para encontrar a tu nuevo mejor amigo!</p>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>Sobre Nosotros</h2>
+            <p>En Patitas Felices, nos dedicamos a conectar familias con mascotas saludables y amorosas. Ofrecemos una gran variedad de perros, gatos, aves y pequeños animales, todos cuidados con el máximo cariño y profesionalidad.</p>
+            <p>Nuestra misión es asegurar el bienestar de cada animal y proporcionar a nuestros clientes todo lo necesario para una convivencia feliz y duradera. ¡Visítanos y enamórate!</p>
+        </section>
+
+        <section class="section">
+            <h2>Nuestros Adorables Amigos</h2>
+            <div class="grid">
+                <div class="grid-item">
+                    <img src="perro.png" alt="Perro adorable de Patitas Felices" id="imagen-perro">
+                    <h3>¡Conoce a nuestros perros!</h3>
+                    <p>Juguetones, leales y siempre listos para una aventura. Encuentra el compañero canino perfecto para ti y tu familia.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="gato.png" alt="Gato tierno de Patitas Felices" id="imagen-gato">
+                    <h3>¡Conoce a nuestros gatos!</h3>
+                    <p>Elegantes, cariñosos e independientes. Descubre la magia de tener un felino en tu vida.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Contacto</h2>
+            <p>¿Tienes preguntas o quieres visitar nuestra tienda?</p>
+            <p><strong>Dirección:</strong> Calle Falsa 123, Ciudad Ejemplo</p>
+            <p><strong>Teléfono:</strong> 555-123-4567</p>
+            <p><strong>Email:</strong> info@patitasfelices.com</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Patitas Felices. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
